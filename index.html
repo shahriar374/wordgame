@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Word Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  </head>
+  <body>
+    <!-- Main Wrapper -->
+    <div id="main-wrapper">
+      <img id="main-logo" src="logo.png">
+      <h3 id="displayWordBox"></h3>
+      <h3 id="countdown"></h3>
+      <div id="custom-timer-wrapper">
+        <h3>Duration:</h3>
+        <div id="custom-timer-inner-wrapper">
+            <input id="custom-timer-input" type="number" value="60" min="1" max="999"> 
+            <p>Second(s)</p>
+        </div>
+      </div>
+      <button id="str" onclick="startGame(0)">Start</button>
+
+      <div id="form-container">
+        <form>
+            <input type="text" name="wordBox" id="typeWordBox" oninput="validation(this.value)" style="display:none;" autocomplete="off">
+        </form>
+      </div>
+      <h4 id="pnt">Point: <i class="point">0</i></h4>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+      <h4>Developed By:</h4>
+      <a href="https://github.com/shahriar374" target="_blank">Shahriar Kabir</a> <br>
+      <a href="https://www.facebook.com/sadimhasan.sourav.1?mibextid=ZbWkwl" target="_blank">MD Sadim Hasan Shourov</a>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="words.js"></script>
+  </body>
+</html>

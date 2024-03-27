@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
+
+
+html {
+	font-family: 'Poppins', sans-serif;
+	font-size: 26px;
+	font-weight: 400;
+	background: #F2AFEF;
+	color: #33186B;
+	text-align: center;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+a:focus {
+    outline: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+#main-logo {
+	width: 200px;
+	margin: 30px 0;
+}
+
+#displayWordBox {
+	font-size: 60px;
+	margin: 0;
+    color: #7360DF;
+}
+
+/*form container*/
+#form-container {
+	display: flex;
+	justify-content: center;
+}
+
+#form-container form{
+	width: 40%;
+}
+
+#form-container input {
+    background: #fff0;
+    color: #7360DF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+#rst, #str {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	background-color: #33186B;
+	border: none;
+	color: #EAEAEA;
+ 	padding: 15px 32px;
+	text-align: center;
+ 	text-decoration: none;
+	display: inline-block;
+	font-size: 26px;
+    cursor:pointer;
+	border-radius: 15px;
+}
+
+#rst:hover, #str:hover {
+	background-color: #EAEAEA;
+	color: #33186B;
+}
+
+#custom-timer-inner-wrapper {
+	display: flex;
+    justify-content: center;
+}
+
+#custom-timer-wrapper h3 {
+	margin: 0;
+	margin-top: 20px;
+}
+
+#custom-timer-inner-wrapper input{
+    background: #fff0;
+    color: #7360DF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+	width: 75px;
+}
+
+.point {
+    color: #7360DF;
+	font-style: normal;
+}
+
+#pnt-updt-inc {
+	font-size: 30px;
+	color: #33186B;
+	/* -webkit-text-stroke: 3px #7360DF; */
+	font-weight: 700;
+	position: absolute;
+    left: 50%;
+}
+
+#footer {
+	margin-top: 130px;
+}
+
+#footer a{
+	text-decoration: none;
+	font-size: 22px;
+	color: #7360DF;
+	font-weight: 900;
+}
+
+
+#footer h4{
+	margin: 15px;
+	font-size: 24px;
+}
